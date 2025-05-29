@@ -1,4 +1,4 @@
-name: "diptrace-viewer"
+name: "demosite"
 services:
   php-8.4-apache:
     build: ./ # build image from ./Dockerfile
