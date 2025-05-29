@@ -1,0 +1,9 @@
+name: "diptrace-viewer"
+services:
+  php-8.4-apache:
+    build: ./ # build image from ./Dockerfile
+    volumes:
+      - ./dist/:/var/www/html
+    ports:
+      - "8080:80"
+      - "443:443"
